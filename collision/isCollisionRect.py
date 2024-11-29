@@ -1,4 +1,4 @@
-from isCorrectRect import isCorrectRect
+from .isCorrectRect import isCorrectRect
 
 
 class RectCorrectError(Exception):
