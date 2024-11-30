@@ -69,17 +69,17 @@ ___
 ### Как пример:   
 
 rectangles = [   
-*Tabspace* [(-3, 1), (9, 10)],   
-*Tabspace* [(-7, 0), (13, 12)],   
-*Tabspace* [(0, 0), (5, 5)],   
-*Tabspace* [(2, 2), (7, 7)]   
+  [(-3, 1), (9, 10)],   
+  [(-7, 0), (13, 12)],   
+  [(0, 0), (5, 5)],   
+  [(2, 2), (7, 7)]   
 ]   
 result = intersectionAreaMultiRect(rectangles)   
 print(f"Уникальная площадь пересечения: {result}")   
 
 incorrect_rectangles = [   
-*Tabspace*[(-3, 1), (9, 10)],   
-*Tabspace* [(3, 17), (13, 1)]  # Некорректный прямоугольник   
+  [(-3, 1), (9, 10)],   
+  [(3, 17), (13, 1)]  # Некорректный прямоугольник   
 ]   
 intersectionAreaMultiRect(incorrect_rectangles)  # Вызовет ошибку   
 ___
