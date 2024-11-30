@@ -78,7 +78,7 @@ result = intersectionAreaMultiRect(rectangles)
 print(f"Уникальная площадь пересечения: {result}")   
 
 incorrect_rectangles = [   
-*Tabspace* [(-3, 1), (9, 10)],   
+*Tabspace*[(-3, 1), (9, 10)],   
 *Tabspace* [(3, 17), (13, 1)]  # Некорректный прямоугольник   
 ]   
 intersectionAreaMultiRect(incorrect_rectangles)  # Вызовет ошибку   
